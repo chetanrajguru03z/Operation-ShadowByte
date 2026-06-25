@@ -10,7 +10,6 @@ shadowbyte_evidence.png
 ## Step 2: Search for Hidden Content
 
 Use:
-
 Select-String -Path .\shadowbyte_evidence.png -Pattern "R0NT"
 
 This reveals a Base64 encoded string hidden inside the image.
